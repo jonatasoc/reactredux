@@ -1,5 +1,14 @@
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Video from "./components/Video";
+
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <Video />
+      <Sidebar />;
+    </>
+  );
 }
 
 export default App;
