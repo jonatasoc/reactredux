@@ -32,6 +32,6 @@ function Sidebar({ modules, dispatch }) {
   );
 }
 
-export default connect(({ modules }) => ({
+export default connect(({ course: { modules } }) => ({
   modules,
 }))(Sidebar);
